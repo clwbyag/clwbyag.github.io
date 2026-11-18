@@ -4,9 +4,11 @@ Academic multimedia journalism website on concerns around production change and 
 
 ## Live site (exact local design)
 
-**https://sayansinha2019.github.io/clw-changing-tracks/**
+**https://clwbyag.github.io/**
 
-Repo: https://github.com/sayansinha2019/clw-changing-tracks
+Repo: https://github.com/clwbyag/clwbyag.github.io
+
+Mirror (previous host): https://sayansinha2019.github.io/clw-changing-tracks/
 
 ## Open locally
 
