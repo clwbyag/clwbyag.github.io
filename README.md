@@ -8,8 +8,6 @@ Academic multimedia journalism website on concerns around production change and 
 
 Repo: https://github.com/clwbyag/clwbyag.github.io
 
-Mirror (previous host): https://sayansinha2019.github.io/clw-changing-tracks/
-
 ## Open locally
 
 Double-click **`index.html`**  
