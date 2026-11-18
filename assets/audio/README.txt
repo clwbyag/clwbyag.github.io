@@ -1,6 +1,5 @@
-Field interview audio (AAC in MP4 container from WhatsApp):
-- interview-01.mp4 — ~5 minutes
-- interview-02.mp4 — ~8.5 minutes
+Interview audio (AAC in MP4 from WhatsApp):
+- amitava-chaudhuri.mp4 — Chief Public Relations Officer, Amitava Chaudhuri (~4:54)
+- amit-ghosal.mp4 — Secretary, Labour Union, Amit Ghosal (~8:40)
 
-Referenced from voices.html and multimedia.html.
-Additional named interviews (union / management) can be added as .mp3 or .mp4 later.
+Used on multimedia.html and voices.html.

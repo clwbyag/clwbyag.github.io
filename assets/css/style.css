@@ -870,6 +870,16 @@ button,
   object-fit: cover;
 }
 
+.video-shell.has-video video {
+  object-fit: contain;
+  background: #000;
+}
+
+.voice-video {
+  margin: 1rem 0 0.35rem;
+  aspect-ratio: 16 / 9;
+}
+
 .video-placeholder {
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
