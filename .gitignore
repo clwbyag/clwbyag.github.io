@@ -3,3 +3,6 @@ Thumbs.db
 *.log
 .vscode/
 .idea/
+_media_extract/
+clw-changing-tracks-theme.zip
+*.zip

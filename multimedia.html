@@ -26,7 +26,7 @@
           <li><a href="history.html">History of CLW</a></li>
           <li><a href="changing-tracks.html">The Changing Tracks</a></li>
           <li><a href="voices.html">Voices from CLW</a></li>
-          <li><a href="multimedia.html">Multimedia</a></li>
+          <li><a href="multimedia.html" aria-current="page">Multimedia</a></li>
           <li><a href="photo-story.html">Photo Story</a></li>
           <li><a href="data-story.html">Data Story</a></li>
           <li><a href="about.html">About the Project</a></li>
@@ -37,71 +37,70 @@
 
   <main id="main">
     <section class="page-hero">
-      <div class="hero-media" aria-hidden="true"><div class="placeholder-photo hero-ph">Multimedia still / B-roll<br /><small>Documentary frame</small></div></div>
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/images/photo-story/photo-04.jpeg" alt="" />
+      </div>
       <div class="hero-overlay"></div>
       <div class="hero-content">
         <p class="breadcrumb"><a href="index.html">Home</a> / Multimedia</p>
         <h1>Multimedia Stories</h1>
-        <p class="hero-sub">Video, audio and linked photo documentary — the same investigation in sensory form.</p>
+        <p class="hero-sub">Audio interviews and photo documentary — the same investigation in sensory form.</p>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <div class="media-block reveal" id="video">
-          <p class="section-kicker">Video story</p>
-          <h2 class="section-title">Documentary short</h2>
-          <hr class="divider" />
-          <p class="lead">A documentary-style film exploring concerns around CLW’s changing production structure — workers’ testimonies, factory atmosphere and the unresolved privatisation debate.</p>
-          <div class="video-shell" style="margin-top:1.5rem;">
-            <div class="video-placeholder">
-              <p style="font-family:Oswald,sans-serif;letter-spacing:0.08em;text-transform:uppercase;font-size:1.4rem;margin:0 0 0.5rem;">Video placeholder</p>
-              <p style="margin:0;opacity:0.75;">Place your MP4 in <code>assets/video/clw-documentary.mp4</code><br />or embed a YouTube / Vimeo iframe here.</p>
-            </div>
-            <!-- Uncomment when file is ready:
-            <video controls poster="assets/images/video-poster.jpg">
-              <source src="assets/video/clw-documentary.mp4" type="video/mp4" />
-            </video>
-            -->
-          </div>
-          <p class="photo-caption">Suggested runtime: 5–12 minutes. Include lower-thirds for speakers and a closing card distinguishing facts, allegations and open questions.</p>
-        </div>
-
         <div class="media-block reveal" id="audio">
           <p class="section-kicker">Audio story</p>
           <h2 class="section-title">Voices on tape</h2>
           <hr class="divider" />
-          <p class="lead">Original interview recordings and key statements. Full interview pages live in <a href="voices.html">Voices from CLW</a>.</p>
+          <p class="lead">Original field interview recordings from the CLW reporting. Full context and additional interview slots live in <a href="voices.html">Voices from CLW</a>.</p>
           <div class="audio-list" style="margin-top:1.5rem;">
             <div class="audio-player">
-              <div class="player-label">Rajib Gupta — General Secretary</div>
-              <p style="margin:0.4rem 0 0;font-size:0.9rem;color:#9aa1a8;">Union perspective on production change.</p>
-              <audio controls preload="none"><source src="assets/audio/rajib-gupta.mp3" type="audio/mpeg" /></audio>
+              <div class="player-label">Field interview I · shop-floor voice</div>
+              <p style="margin:0.4rem 0 0;font-size:0.9rem;color:#9aa1a8;">Approx. 5 minutes · recorded for this project</p>
+              <audio controls preload="metadata">
+                <source src="assets/audio/interview-01.mp4" type="audio/mp4" />
+                Your browser does not support audio playback.
+              </audio>
             </div>
             <div class="audio-player">
-              <div class="player-label">Amit Ghosal — Secretary</div>
-              <p style="margin:0.4rem 0 0;font-size:0.9rem;color:#9aa1a8;">Organising and workplace concerns.</p>
-              <audio controls preload="none"><source src="assets/audio/amit-ghosal.mp3" type="audio/mpeg" /></audio>
-            </div>
-            <div class="audio-player">
-              <div class="player-label">Worker montage — shop floor</div>
-              <p style="margin:0.4rem 0 0;font-size:0.9rem;color:#9aa1a8;">Edited highlights from worker interviews.</p>
-              <audio controls preload="none"><source src="assets/audio/worker-montage.mp3" type="audio/mpeg" /></audio>
-            </div>
-            <div class="audio-player">
-              <div class="player-label">Official statement excerpt — DGM / PRO</div>
-              <p style="margin:0.4rem 0 0;font-size:0.9rem;color:#9aa1a8;">Management perspective for balance.</p>
-              <audio controls preload="none"><source src="assets/audio/official-excerpt.mp3" type="audio/mpeg" /></audio>
+              <div class="player-label">Field interview II · shop-floor voice</div>
+              <p style="margin:0.4rem 0 0;font-size:0.9rem;color:#9aa1a8;">Approx. 8.5 minutes · recorded for this project</p>
+              <audio controls preload="metadata">
+                <source src="assets/audio/interview-02.mp4" type="audio/mp4" />
+                Your browser does not support audio playback.
+              </audio>
             </div>
           </div>
+          <p class="photo-caption">Speakers are labelled generically pending final name/consent clearance for publication. Do not treat these clips as official management statements.</p>
         </div>
 
         <div class="media-block reveal" id="photo">
           <p class="section-kicker">Photo story</p>
           <h2 class="section-title">Visual essay</h2>
           <hr class="divider" />
-          <p class="lead">A full photo essay — locomotives, machinery, workers and the works’ surroundings — continues on a dedicated page for immersive viewing.</p>
-          <p><a class="btn" href="photo-story.html">Open Photo Story</a></p>
+          <p class="lead">Welding bays, assembly lines and locomotive shells — a four-frame essay from inside the works.</p>
+          <div class="photo-preview-strip">
+            <a href="photo-story.html"><img src="assets/images/photo-story/photo-03.jpeg" alt="Locomotive on the assembly line" loading="lazy" /></a>
+            <a href="photo-story.html"><img src="assets/images/photo-story/photo-04.jpeg" alt="Workshop bay with overhead cranes" loading="lazy" /></a>
+            <a href="photo-story.html"><img src="assets/images/photo-story/photo-01.jpeg" alt="Welder working on steel component" loading="lazy" /></a>
+            <a href="photo-story.html"><img src="assets/images/photo-story/photo-02.jpeg" alt="Welder at workshop bench" loading="lazy" /></a>
+          </div>
+          <p><a class="btn" href="photo-story.html">Open full Photo Story</a></p>
+        </div>
+
+        <div class="media-block reveal" id="video">
+          <p class="section-kicker">Video story</p>
+          <h2 class="section-title">Documentary short</h2>
+          <hr class="divider" />
+          <p class="lead">A longer documentary cut can sit here when the edit is ready. Until then, the audio interviews and photo essay carry the multimedia brief.</p>
+          <div class="video-shell" style="margin-top:1.5rem;">
+            <div class="video-placeholder">
+              <p style="font-family:Oswald,sans-serif;letter-spacing:0.08em;text-transform:uppercase;font-size:1.4rem;margin:0 0 0.5rem;">Video coming next</p>
+              <p style="margin:0;opacity:0.75;">Drop an MP4 into <code>assets/video/</code> or embed YouTube / Vimeo when available.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -109,11 +108,11 @@
 
   <footer class="site-footer">
     <div class="footer-grid">
-      <div><div class="footer-brand">CLW: The Changing Tracks</div><p>Upload media into assets/video and assets/audio</p></div>
+      <div><div class="footer-brand">CLW: The Changing Tracks</div><p>Audio interviews + photo essay live</p></div>
       <div><h4>Related</h4><ul><li><a href="voices.html">Interview archive</a></li><li><a href="data-story.html">Data story</a></li></ul></div>
       <div><h4>Home</h4><ul><li><a href="index.html">Homepage</a></li><li><a href="about.html">About</a></li></ul></div>
     </div>
-    <div class="footer-bottom"><span>© 2026 CLW: The Changing Tracks</span><span>Optimise media before upload</span></div>
+    <div class="footer-bottom"><span>© 2026 CLW: The Changing Tracks</span><span>Field media · 2026</span></div>
   </footer>
   <script src="assets/js/main.js"></script>
 </body>
