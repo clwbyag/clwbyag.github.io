@@ -2,14 +2,21 @@
 
 Academic multimedia journalism website on concerns around production change and privatisation debates at **Chittaranjan Locomotive Works (CLW)**, Chittaranjan, West Bengal.
 
-## Open the site now
+## Live site (exact local design)
+
+**https://sayansinha2019.github.io/clw-changing-tracks/**
+
+Repo: https://github.com/sayansinha2019/clw-changing-tracks
+
+## Open locally
 
 Double-click **`index.html`**  
 or from PowerShell:
 
 ```powershell
-start c:\Users\sayan\Desktop\tua\index.html
+Start-Process c:\Users\sayan\Desktop\tua\index.html
 ```
+
 
 ## Site map
 
