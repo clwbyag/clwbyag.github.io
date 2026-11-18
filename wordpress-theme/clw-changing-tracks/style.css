@@ -1,0 +1,29 @@
+/*
+Theme Name: CLW The Changing Tracks
+Theme URI: https://example.com/clw-changing-tracks
+Author: Multimedia Journalism Project
+Description: Editorial documentary theme for the CLW: The Changing Tracks academic journalism website. Charcoal, industrial grey, off-white and railway red.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Text Domain: clw-changing-tracks
+*/
+
+/* Core styles are enqueued from /assets/css/style.css via functions.php.
+   Keep this file for WordPress theme recognition. */
+
+.wp-block-image img {
+  height: auto;
+}
+
+.alignwide {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alignfull {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
